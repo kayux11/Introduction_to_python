@@ -18,17 +18,17 @@ print("Your BMI is", weight / (height ** 2))
 
 
 # # ConvertbCelcius to Fahreheit
-# celcius = float(input("Enter temperature in Celcius: ",))
+celcius = float(input("Enter temperature in Celcius: ",))
 
-# print("Equivalent Temperature in Fahreheit is", (celcius * 9/5) + 32 )
+print("Equivalent Temperature in Fahreheit is", (celcius * 9/5) + 32 )
 
-# # Average of Number
-# num1 = float(input("Enter the first number: ",))
-# num2 = float(input("Enter the second number: ",))
-# num3 = float(input("Enter the third number: ",))
-# sum = num1 + num2 + num3
+# Average of Number
+num1 = float(input("Enter the first number: ",))
+num2 = float(input("Enter the second number: ",))
+num3 = float(input("Enter the third number: ",))
+sum = num1 + num2 + num3
 
-# print(f"Average is", sum/3)
+print(f"Average is", sum/3)
 
 
 # # Area of a circle
@@ -45,7 +45,7 @@ print("SI =", (principal * rate * time)/100)
 # # Time converter
 hrs = 130 //60 
 min = 130 %60
-print(hrs, min)
+print(f"{hrs}h {min}m")
 
 # Simple calculator
 num1 = float(input("Enter first number: ",))
