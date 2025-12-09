@@ -19,9 +19,25 @@
 # print()
           
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-i = 1
-while i <= 12:
-    print(f"{num} x {i} = {num * i}")
-    i += 1
+# i = 1
+# while i <= 12:
+#     print(f"{num} x {i} = {num * i}")
+#     i += 1
+
+
+def salute():
+    print("assalamualaikum")
+salute()
+
+def sub(a,b):
+    return a - b
+result = sub(20, 6)
+print(result)
+
+def salute(name):
+    print(f"Assalamulaikumya {name}")
+salute("habibi")
+salute("Ustaz")
+salute("Talib")
